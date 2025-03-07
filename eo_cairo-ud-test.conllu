@@ -23,7 +23,7 @@
 # sent_id = 3
 # text = Li provis ĉesi fumi kaj trinki.
 # text_en = He tried to stop smoking and drinking.
-1	Li	li	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Pers	2	nsubj	_	_
+1	Li	li	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	provis	provi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	ĉesi	ĉesi	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	fumi	fumi	VERB	_	VerbForm=Inf	3	xcomp	_	_
@@ -33,7 +33,7 @@
 
 # sent_id = 4
 # text = Ĉu vi volas iri?
-# text = Do you want to go?
+# text_en = Do you want to go?
 1	Ĉu	ĉu	PART	_	_	3	advmod	_	_
 2	vi	vi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 3	volas	voli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -53,7 +53,7 @@
 # sent_id = 6
 # text = Ŝi igis sian edzon lavi la aŭton.
 # text_en = She made her husband wash the car.
-1	Ŝi	ŝi	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Pers	2	nsubj	_	_
+1	Ŝi	ŝi	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	igis	igi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	sian	si	PRON	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	4	nmod:poss	_	_
 4	edzon	edzo	NOUN	_	Case=Acc|Number=Sing	2	obj	_	_
@@ -72,7 +72,7 @@
 5	ruĝe	ruĝe	ADV	_	_	6	advmod	_	_
 6	farbis	farbi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 7	la	la	DET	_	_	8	det	_	_
-8	barilon	barilo	NOUN	_	Case=Acc|Num=Sing	6	obj	_	SpaceAfter=No
+8	barilon	barilo	NOUN	_	Case=Acc|Number=Sing	6	obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 8
@@ -93,13 +93,13 @@
 1	Maria	Maria	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	gajnis	gajni	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	bronzon	bronzo	NOUN	_	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	Petro	Petro	PROPN	_	Case=Nom|Number=Sing	1	remnant	_	_
-6	arĝenton	arĝento	NOUN	_	Case=Acc|Number=Sing	3	remnant	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	Petro	Petro	PROPN	_	Case=Nom|Number=Sing	2	conj	_	_
+6	arĝenton	arĝento	NOUN	_	Case=Acc|Number=Sing	5	orphan	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
 8	kaj	kaj	CCONJ	_	_	9	cc	_	_
-9	Jane	Jane	PROPN	_	Case=Nom|Number=Sing	5	remnant	_	_
-10	oron	oro	NOUN	_	Case=Acc|Number=Sing	6	remnant	_	SpaceAfter=No
+9	Jane	Jane	PROPN	_	Case=Nom|Number=Sing	2	conj	_	_
+10	oron	oro	NOUN	_	Case=Acc|Number=Sing	9	orphan	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 10
@@ -131,14 +131,14 @@
 # sent_id = 12
 # text = Ili ne havas ideon, kiu skribis ĝin.
 # text_en = They have no idea who wrote it.
-1	Ili	il	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Pers	3	nsubj	_	_
+1	Ili	il	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	ne	ne	ADV	_	_	3	advmod	_	_
 3	havas	havi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ideon	ideo	NOUN	_	Case=Acc|Number=Sing	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	kiu	kiu	PRON	_	Case=Nom|Number=Sing|PronType=Rel	7	nsubj	_	_
 7	skribis	skribi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
-8	ĝin	ĝi	PROPN	_	Case=Acc|Number=Sing|PronType=Dem	7	obj	_	SpaceAfter=No
+8	ĝin	ĝi	PRON	_	Case=Acc|Number=Sing|PronType=Dem	7	obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 13
@@ -165,14 +165,14 @@
 # sent_id = 15
 # text = Li aĉetis aŭton sed lia frato nur biciklon.
 # text_en = He bought a car but his brother just a bike.
-1	Li	li	PRON	_	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs	2	nsubj	_	_
+1	Li	li	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	2	nsubj	_	_
 2	aĉetis	aĉeti	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	aŭton	aŭto	NOUN	_	Case=Acc|Number=Sing	2	obj	_	_
 4	sed	sed	SCONJ	_	_	6	mark	_	_
 5	lia	li	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
-6	frato	frato	NOUN	_	Case=Nom|Number=Sing	1	remnant	_	_
+6	frato	frato	NOUN	_	Case=Nom|Number=Sing	2	conj	_	_
 7	nur	nur	ADV	_	_	8	advmod	_	_
-8	biciklon	biciklo	NOUN	_	Case=Acc|Number=Sing	3	remnant	_	SpaceAfter=No
+8	biciklon	biciklo	NOUN	_	Case=Acc|Number=Sing	6	orphan	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 16
@@ -184,7 +184,7 @@
 4	brakumis	brakumi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	unu	unu	NUM	_	_	4	obj	_	_
 6	la	la	DET	_	_	7	det	_	_
-7	alian	alia	ADJ	_	Case=Acc|Degree=Pos|Number=Sing	5	mwe	_	_
+7	alian	alia	ADJ	_	Case=Acc|Degree=Pos|Number=Sing	5	fixed	_	_
 8	kaj	kaj	CCONJ	_	_	10	cc	_	_
 9	poste	poste	ADV	_	_	10	advmod	_	_
 10	forlasis	forlasi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
@@ -198,7 +198,7 @@
 1	Ŝi	ŝi	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	devus	devi	VERB	_	Mood=Sub|VerbForm=Fin	4	aux	_	_
 3	esti	esti	AUX	_	VerbForm=Inf	4	aux	_	_
-4	faranta	faranta	VERB	_	Mood=Ind|Num=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	faranta	faranta	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 5	sian	si	PRON	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 6	hararon	hararo	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
 7	sed	sed	SCONJ	_	_	11	mark	_	_
