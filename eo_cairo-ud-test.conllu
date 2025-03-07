@@ -184,7 +184,7 @@
 4	brakumis	brakumi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	unu	unu	NUM	_	_	4	obj	_	_
 6	la	la	DET	_	_	7	det	_	_
-7	alian	alia	ADJ	_	Case=Acc|Degree=Pos|Number=Sing	5	fixed	_	_
+7	alian	alia	ADJ	_	Case=Acc|Degree=Pos|Number=Sing	5	compound	_	_
 8	kaj	kaj	CCONJ	_	_	10	cc	_	_
 9	poste	poste	ADV	_	_	10	advmod	_	_
 10	forlasis	forlasi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
