@@ -80,7 +80,7 @@
 # text_en = My dad is cooler than yours.
 1	Mia	mi	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 2	patro	patro	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
-3	estas	esti	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	estas	esti	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	pli	pli	ADV	_	_	5	advmod	_	_
 5	moda	moda	ADJ	_	Case=Nom|Number=Sing	0	root	_	_
 6	ol	ol	ADV	_	_	7	case	_	_
@@ -107,7 +107,7 @@
 # text_en = Is Iguazu a big or a small country?
 1	Ĉu	ĉu	PART	_	_	7	advmod	_	_
 2	Iguazu	Iguazu	PROPN	_	Case=Nom|Number=Sing	7	nsubj	_	_
-3	estas	esti	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	estas	esti	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
 4	granda	granda	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
 5	aŭ	aŭ	CCONJ	_	_	6	cc	_	_
 6	malgranda	malgranda	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	conj	_	_
@@ -124,7 +124,7 @@
 5	Mary	Mary	PROPN	_	_	2	conj	_	_
 6	Brown	Brown	PROPN	_	_	5	appos	_	_
 7	povus	povi	VERB	_	Mood=Sub|VerbForm=Fin	0	root	_	_
-8	esti	esti	AUX	_	VerbForm=Inf	9	aux	_	_
+8	esti	esti	AUX	_	VerbForm=Inf	9	aux:pass	_	_
 9	elektitaj	elekti	VERB	_	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -236,7 +236,7 @@
 6	Petro	Petro	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
 7	kaj	kaj	CCONJ	_	_	10	cc	_	_
 8	ĝi	ĝi	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
-9	estis	esti	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	estis	esti	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
 10	transdonita	transdoni	VERB	_	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	parataxis	_	_
 11	hieraŭ	hieraŭ	ADV	_	_	10	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
