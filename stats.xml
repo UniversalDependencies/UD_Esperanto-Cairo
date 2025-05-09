@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>20</sentences><tokens>177</tokens><words>177</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>20</sentences><tokens>177</tokens><words>177</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="103" /><!-- ., ,, la, esti, vi, ?, Petro, kaj, li, ŝi, de, mi, ne, povi, si -->
+  <forms unique="114" /><!-- ., ,, la, kaj, ?, Petro, vi, ŝi, de, estas, li, ne, Maria, Mi, aŭton -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="14">
+    <tag name="ADJ">4</tag><!-- alia, granda, malgranda, moda -->
+    <tag name="ADP">5</tag><!-- de, al, en -->
+    <tag name="ADV">13</tag><!-- ne, hieraŭ, ial, kiam, nur, ol, pli, poste, rapide, ruĝe -->
+    <tag name="AUX">6</tag><!-- esti -->
+    <tag name="CCONJ">8</tag><!-- kaj, nek, _, aŭ -->
+    <tag name="DET">10</tag><!-- la, tiu -->
+    <tag name="NOUN">23</tag><!-- aŭto, letero, Francio, amimo, arĝento, barilo, biciklo, bronzo, edzo, fenestro -->
+    <tag name="NUM">1</tag><!-- unu -->
+    <tag name="PART">3</tag><!-- ĉu, ĉi -->
+    <tag name="PRON">24</tag><!-- vi, li, ŝi, mi, si, ĝi, il, kio, kiu -->
+    <tag name="PROPN">14</tag><!-- Petro, Maria, Brown, Iguazu, Jane, Mary, Parizo, Peter, Sam, Smith -->
+    <tag name="PUNCT">28</tag><!-- ., ,, ?, !, _ -->
+    <tag name="SCONJ">5</tag><!-- ke, sed, ĉar -->
+    <tag name="VERB">33</tag><!-- povi, pensi, skribi, aĉeti, brakumi, daŭrigi, devi, elekti, faranta, farbi -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="27">
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON">20</feat><!-- aŭton, sian, Kion, alian, arĝenton, barilon, biciklon, bronzon, edzon, fenestron -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">43</feat><!-- Petro, vi, ŝi, li, Maria, Mi, Francio, Iguazu, Ili, Jane -->
+    <feat name="Degree" value="Pos" upos="ADJ">3</feat><!-- alian, granda, malgranda -->
+    <feat name="Gender" value="Fem" upos="PRON">4</feat><!-- ŝi -->
+    <feat name="Gender" value="Masc" upos="PRON">3</feat><!-- li -->
+    <feat name="Mood" value="Imp" upos="VERB">1</feat><!-- malfermu -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">24</feat><!-- estas, pensas, skribis, aĉetis, brakumis, estis, faranta, farbis, forlasis, gajnis -->
+    <feat name="Mood" value="Sub" upos="VERB">3</feat><!-- devus, farus, povus -->
+    <feat name="Number" value="Plur" upos="PRON,VERB">2</feat><!-- Ili, elektitaj -->
+    <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">62</feat><!-- Petro, vi, ŝi, li, Maria, Mi, aŭton, sian, Francio, Iguazu -->
+    <feat name="Number[psor]" value="Sing" upos="PRON">6</feat><!-- sian, Mia, lia, sia, via -->
+    <feat name="Person" value="1" upos="PRON">3</feat><!-- Mi, Mia -->
+    <feat name="Person" value="2" upos="PRON">2</feat><!-- vi, via -->
+    <feat name="Person" value="3" upos="PRON">10</feat><!-- li, sian, Ŝi, Ili, lia, sia, ĝi -->
+    <feat name="Poss" value="Yes" upos="PRON">6</feat><!-- sian, Mia, lia, sia, via -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">3</feat><!-- tiu, ĝi, ĝin -->
+    <feat name="PronType" value="Int" upos="PRON">1</feat><!-- Kion -->
+    <feat name="PronType" value="Prs" upos="PRON">20</feat><!-- vi, ŝi, li, Mi, sian, Ili, Mia, lia, sia, via -->
+    <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- kiu -->
+    <feat name="Reflex" value="Yes" upos="PRON">2</feat><!-- sia, sian -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">15</feat><!-- skribis, aĉetis, brakumis, elektitaj, estis, farbis, forlasis, gajnis, igis, kreskis -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">11</feat><!-- estas, pensas, faranta, havas, pluvas, povas, rigardas, volas -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">27</feat><!-- estas, pensas, skribis, aĉetis, brakumis, devus, estis, farbis, farus, forlasis -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">9</feat><!-- esti, daŭrigi, fumi, iri, lavi, trinki, veni, ĉesi -->
+    <feat name="VerbForm" value="Part" upos="VERB">3</feat><!-- elektitaj, faranta, transdonita -->
+    <feat name="Voice" value="Act" upos="VERB">1</feat><!-- faranta -->
+    <feat name="Voice" value="Pass" upos="VERB">2</feat><!-- elektitaj, transdonita -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="26">
+    <dep name="acl:relcl">1</dep>
+    <dep name="advcl">2</dep>
+    <dep name="advmod">15</dep>
+    <dep name="amod">1</dep>
+    <dep name="appos">3</dep>
+    <dep name="aux">2</dep>
+    <dep name="aux:pass">2</dep>
+    <dep name="case">6</dep>
+    <dep name="cc">8</dep>
+    <dep name="ccomp">2</dep>
+    <dep name="compound">1</dep>
+    <dep name="conj">8</dep>
+    <dep name="cop">2</dep>
+    <dep name="det">10</dep>
+    <dep name="mark">5</dep>
+    <dep name="nmod">5</dep>
+    <dep name="nmod:poss">5</dep>
+    <dep name="nsubj">22</dep>
+    <dep name="nsubj:pass">2</dep>
+    <dep name="obj">14</dep>
+    <dep name="orphan">3</dep>
+    <dep name="parataxis">1</dep>
+    <dep name="punct">28</dep>
+    <dep name="root">20</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">8</dep>
+  </deps>
+</treebank>
