@@ -1,4 +1,5 @@
 # sent_id = 1
+# parallel_id = cairo/1
 # text = La knabino skribis leteron al sia amiko.
 # text_en = The girl wrote a letter to her friend.
 1	La	la	DET	_	_	2	det	_	_
@@ -11,6 +12,7 @@
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 2
+# parallel_id = cairo/2
 # text = Mi pensas, ke pluvas.
 # text_en = I think that it is raining.
 1	Mi	mi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
@@ -21,6 +23,7 @@
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 3
+# parallel_id = cairo/3
 # text = Li provis ĉesi fumi kaj trinki.
 # text_en = He tried to stop smoking and drinking.
 1	Li	li	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -32,6 +35,7 @@
 7	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 4
+# parallel_id = cairo/4
 # text = Ĉu vi volas iri?
 # text_en = Do you want to go?
 1	Ĉu	ĉu	PART	_	_	3	advmod	_	_
@@ -41,6 +45,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 5
+# parallel_id = cairo/5
 # text = Sam, malfermu la fenestron!
 # text_en = Sam, open the window!
 1	Sam	Sam	PROPN	_	_	3	vocative	_	SpaceAfter=No
@@ -51,6 +56,7 @@
 6	!	!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 6
+# parallel_id = cairo/6
 # text = Ŝi igis sian edzon lavi la aŭton.
 # text_en = She made her husband wash the car.
 1	Ŝi	ŝi	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -63,6 +69,7 @@
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 7
+# parallel_id = cairo/7
 # text = La najbaro de Petro ruĝe farbis la barilon.
 # text_en = Peter's neighbor painted the fence red.
 1	La	la	DET	_	_	2	det	_	_
@@ -76,6 +83,7 @@
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 8
+# parallel_id = cairo/8
 # text = Mia patro estas pli moda ol via.
 # text_en = My dad is cooler than yours.
 1	Mia	mi	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
@@ -88,6 +96,7 @@
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 9
+# parallel_id = cairo/9
 # text = Maria gajnis bronzon, Petro arĝenton, kaj Jane oron.
 # text_en = Mary won bronze, Peter silver, and Jane gold.
 1	Maria	Maria	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
@@ -103,6 +112,7 @@
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 10
+# parallel_id = cairo/10
 # text = Ĉu Iguazu estas granda aŭ malgranda lando?
 # text_en = Is Iguazu a big or a small country?
 1	Ĉu	ĉu	PART	_	_	7	advmod	_	_
@@ -115,6 +125,7 @@
 8	?	?	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 11
+# parallel_id = cairo/11
 # text = Nek Peter Smith nek Mary Brown povus esti elektitaj.
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
 1	Nek	nek	CCONJ	_	_	2	cc	_	_
@@ -129,6 +140,7 @@
 10	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 12
+# parallel_id = cairo/12
 # text = Ili ne havas ideon, kiu skribis ĝin.
 # text_en = They have no idea who wrote it.
 1	Ili	il	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
@@ -142,6 +154,7 @@
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 13
+# parallel_id = cairo/13
 # text = Kion vi rigardas?
 # text_en = What are you looking at?
 1	Kion	kio	PRON	_	Case=Acc|Number=Sing|PronType=Int	3	obj	_	_
@@ -150,6 +163,7 @@
 4	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 14
+# parallel_id = cairo/14
 # text = Kiam vi pensas, ke vi povas veni?
 # text_en = When do you think you can come?
 1	Kiam	kiam	ADV	_	_	3	advmod	_	_
@@ -163,6 +177,7 @@
 9	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 15
+# parallel_id = cairo/15
 # text = Li aĉetis aŭton sed lia frato nur biciklon.
 # text_en = He bought a car but his brother just a bike.
 1	Li	li	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	2	nsubj	_	_
@@ -176,6 +191,7 @@
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 16
+# parallel_id = cairo/16
 # text = Petro kaj Maria brakumis unu la alian kaj poste forlasis la ĉambron.
 # text_en = Peter and Mary hugged each other and then left the room.
 1	Petro	Petro	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
@@ -193,6 +209,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 17
+# parallel_id = cairo/17
 # text = Ŝi devus esti faranta sian hararon sed ial ŝi ne farus tiun tagon.
 # text_en = She should have been doing her hair but for some reason she wouldn't that day.
 1	Ŝi	ŝi	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -211,6 +228,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 18
+# parallel_id = cairo/18
 # text = Mi ne povis daŭrigi, ĉar li kuris tro rapide.
 # text_en = I wasn't able to keep up, because he ran too fast.
 1	Mi	mi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -226,6 +244,7 @@
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 19
+# parallel_id = cairo/19
 # text = Ĉi tiu letero estas de Petro kaj ĝi estis transdonita hieraŭ.
 # text_en = This letter is from Peter and it was delivered yesterday.
 1	Ĉi	ĉi	PART	_	_	2	advmod	_	_
@@ -242,6 +261,7 @@
 12	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 20
+# parallel_id = cairo/20
 # text = Ŝi kreskis en Parizo, la ĉefurbo de Francio.
 # text_en = She grew up in Paris, the capital of France.
 1	Ŝi	ŝi	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	2	nsubj	_	_
