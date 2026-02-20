@@ -2,7 +2,7 @@
 # parallel_id = cairo/1
 # text = La knabino skribis leteron al sia amiko.
 # text_en = The girl wrote a letter to her friend.
-1	La	la	DET	Definite=Def|PronType=Art	_	2	det	_	_
+1	La	la	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	knabino	knabino	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	skribis	skribi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	leteron	letero	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
@@ -51,7 +51,7 @@
 1	Sam	Sam	PROPN	_	_	3	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	malfermu	malfermi	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
-4	la	la	DET	Definite=Def|PronType=Art	_	5	det	_	_
+4	la	la	_	Definite=Def|PronType=Art	5	det	_	_
 5	fenestron	fenestro	NOUN	_	Case=Acc|Number=Sing	3	obj	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	3	punct	_	_
 
@@ -64,7 +64,7 @@
 3	sian	si	PRON	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	4	nmod:poss	_	_
 4	edzon	edzo	NOUN	_	Case=Acc|Number=Sing	2	obj	_	_
 5	lavi	lavi	VERB	_	VerbForm=Inf	4	xcomp	_	_
-6	la	la	DET	Definite=Def|PronType=Art	_	7	det	_	_
+6	la	la	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	aŭton	aŭto	NOUN	_	Case=Acc|Number=Sing	5	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -72,13 +72,13 @@
 # parallel_id = cairo/7
 # text = La najbaro de Petro ruĝe farbis la barilon.
 # text_en = Peter's neighbor painted the fence red.
-1	La	la	DET	Definite=Def|PronType=Art	_	2	det	_	_
+1	La	la	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	najbaro	najbaro	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	Petro	Petro	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
 5	ruĝe	ruĝe	ADV	_	_	6	advmod	_	_
 6	farbis	farbi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-7	la	la	DET	Definite=Def|PronType=Art	_	8	det	_	_
+7	la	la	DET	_	Definite=Def|PronType=Art	8	det	_	_
 8	barilon	barilo	NOUN	_	Case=Acc|Number=Sing	6	obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -199,12 +199,12 @@
 3	Maria	Maria	PROPN	_	Case=Nom|Number=Sing	1	conj	_	_
 4	brakumis	brakumi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	unu	unu	NUM	_	_	4	obj	_	_
-6	la	la	DET	Definite=Def|PronType=Art	_	7	det	_	_
+6	la	la	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	alian	alia	ADJ	_	Case=Acc|Degree=Pos|Number=Sing	5	compound	_	_
 8	kaj	kaj	CCONJ	_	_	10	cc	_	_
 9	poste	poste	ADV	_	_	10	advmod	_	_
 10	forlasis	forlasi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
-11	la	la	DET	Definite=Def|PronType=Art	_	12	det	_	_
+11	la	la	DET	_	Definite=Def|PronType=Art	12	det	_	_
 12	ĉambron	ĉambron	NOUN	_	Case=Acc|Number=Sing	10	obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -269,7 +269,7 @@
 3	en	en	ADP	_	_	4	case	_	_
 4	Parizo	Parizo	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	la	la	DET	Definite=Def|PronType=Art	_	7	det	_	_
+6	la	la	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	ĉefurbo	ĉefurbo	NOUN	_	Case=Nom|Number=Sing	4	appos	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	Francio	Francio	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	SpaceAfter=No
