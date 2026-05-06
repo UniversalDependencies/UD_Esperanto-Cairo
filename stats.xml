@@ -31,9 +31,10 @@
     <tag name="VERB">33</tag><!-- povi, pensi, skribi, aĉeti, brakumi, daŭrigi, devi, elekti, faranta, farbi -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="27">
+  <feats unique="29">
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON">20</feat><!-- aŭton, sian, Kion, alian, arĝenton, barilon, biciklon, bronzon, edzon, fenestron -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">43</feat><!-- Petro, vi, ŝi, li, Maria, Mi, Francio, Iguazu, Ili, Jane -->
+    <feat name="Definite" value="Def" upos="DET">8</feat><!-- la -->
     <feat name="Degree" value="Pos" upos="ADJ">3</feat><!-- alian, granda, malgranda -->
     <feat name="Gender" value="Fem" upos="PRON">4</feat><!-- ŝi -->
     <feat name="Gender" value="Masc" upos="PRON">3</feat><!-- li -->
@@ -47,7 +48,8 @@
     <feat name="Person" value="2" upos="PRON">2</feat><!-- vi, via -->
     <feat name="Person" value="3" upos="PRON">10</feat><!-- li, sian, Ŝi, Ili, lia, sia, ĝi -->
     <feat name="Poss" value="Yes" upos="PRON">6</feat><!-- sian, Mia, lia, sia, via -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">3</feat><!-- tiu, ĝi, ĝin -->
+    <feat name="PronType" value="Art" upos="DET">8</feat><!-- la -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">4</feat><!-- tiu, tiun, ĝi, ĝin -->
     <feat name="PronType" value="Int" upos="PRON">1</feat><!-- Kion -->
     <feat name="PronType" value="Prs" upos="PRON">20</feat><!-- vi, ŝi, li, Mi, sian, Ili, Mia, lia, sia, via -->
     <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- kiu -->
