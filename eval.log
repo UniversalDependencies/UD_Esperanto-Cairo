@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Esperanto-Cairo:
-commit 22d242fa73cf1b7f0e55e7a1e44df1beb44c1967
-Merge: e307102 5a1e52f
+commit 0f42396067fdf6986c791143374f131df5d9e51d
+Merge: 4efd5c5 9faf19a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'eo_cairo'
@@ -19,22 +19,12 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 100 out of 177 total words have one or more features.
+Features: 108 out of 177 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 23 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang eo --max-err=10 UD_Esperanto-Cairo/eo_cairo-ud-test.conllu
-[Line 5 Sent 1]: [L3 Warning pron-det-without-prontype] The word 'La' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 54 Sent 5]: [L3 Warning pron-det-without-prontype] The word 'la' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 67 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'la' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 75 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'La' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 81 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'la' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 202 Sent 16]: [L3 Warning pron-det-without-prontype] The word 'la' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 207 Sent 16]: [L3 Warning pron-det-without-prontype] The word 'la' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 226 Sent 17]: [L3 Warning pron-det-without-prontype] The word 'tiun' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 272 Sent 20]: [L3 Warning pron-det-without-prontype] The word 'la' is tagged 'DET' but it lacks the 'PronType' feature
-Warnings: 9
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
