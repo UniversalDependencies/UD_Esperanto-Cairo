@@ -63,7 +63,7 @@
     <feat name="Voice" value="Pass" upos="VERB">2</feat><!-- elektitaj, transdonita -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="26">
+  <deps unique="27">
     <dep name="acl:relcl">1</dep>
     <dep name="advcl">2</dep>
     <dep name="advmod">15</dep>
@@ -79,11 +79,12 @@
     <dep name="cop">2</dep>
     <dep name="det">10</dep>
     <dep name="mark">5</dep>
-    <dep name="nmod">5</dep>
+    <dep name="nmod">3</dep>
     <dep name="nmod:poss">5</dep>
     <dep name="nsubj">22</dep>
     <dep name="nsubj:pass">2</dep>
     <dep name="obj">14</dep>
+    <dep name="obl">2</dep>
     <dep name="orphan">3</dep>
     <dep name="parataxis">1</dep>
     <dep name="punct">28</dep>
